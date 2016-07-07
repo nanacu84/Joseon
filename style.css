@@ -1,0 +1,207 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+/* @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css); */
+@import url(https://cdn.jsdelivr.net/font-kopub/1.0/kopubbatang.css);
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, 'Spoqa Han Sans', Sans-serif;
+	font-size: 1.6rem;
+}
+.container,
+.container-fluid {
+	background-color: #f2ede8;
+}
+/* NAV */
+.navbar {
+	background-color: white;
+	font-weight: 700;
+	color: #6a392e;
+/*	width: calc(100% + 30px);
+	left: -15px; */
+	border-radius: 0;
+	padding-bottom: 30px;
+}
+.nav li a:link,
+.nav li a:visited,
+.nav li a:focus,
+.nav li a:hover,
+.nav li a:active,
+.nav>.open>a,
+.nav>.open>a:focus,
+.nav>.open> a:hover {
+	color: #6a392e;
+	background-color: transparent;
+}
+
+/* Profile */
+.profile {
+	position: relative;
+	top: -77px;
+	margin-bottom: -38px;
+	margin: 0 15px;
+}
+.profile,
+.profile p {
+	text-align: center;
+}
+.profile img {
+	margin: 0 auto;
+}
+.profile h2 {
+	color: #6a392e;
+	margin: 9px 0 0 0;
+}
+.profile p:last-child {
+	margin-bottom: 0px;
+}
+p {
+	font-family: 'KoPub Batang', serif;
+	font-size: 20px;
+	text-align: justify;
+}
+p.desc {
+	line-height: 33.28px;
+}
+p.desc:first-letter {
+	font-family: 'Spoqa Han Sans', Sans-serif;
+	font-size: 300%;
+	font-weight: 700;
+	float: left;
+	margin-top: 18px;
+	margin-right: 6px;
+	color: #6a392e;
+}
+p.desc br {
+	content: "";
+	display: block;
+	margin-top: 28px;
+}
+.sans-serif {
+	font-family: 'Spoqa Han Sans', sans-serif;
+}
+.serif {
+	font-family: 'KoPub Batang', serif;
+}
+.sml {
+	font-size: 111.2%;
+}
+.wt7 {
+	font-weight: 700;
+}
+.itl {
+	font-style: italic;
+	letter-spacing: 0px;
+}
+.h2rows {
+	height: 40px;
+}
+.bigstat {
+	font-family: inherit;
+	height: 50px;
+	border-bottom: 3px solid;
+	font-size: 36px;
+	font-weight: 900;
+	height: 50px;
+	padding: 0 0;
+	margin: 0 0;
+}
+.center {
+	text-align: center;
+}
+.currhp {
+	background: transparent;
+	border: none;
+	border-bottom: 3px solid;
+	font-size: 36px;
+	font-weight: 900;
+	height: 50px;
+	box-shadow: none;
+	padding: 0 0;
+	color: #333;
+}
+.logSeperator {
+	width: 42%;
+	height: 1px;
+	border: 0;
+	margin-top: 80px;
+	background-color: #cfbba9;
+}
+.logSeperator + img {
+	background-color: #f2ede8;
+}
+.needrub {
+	overflow-x: auto;
+}
+.needrub table {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.coinage {
+	width: 20%;
+	float: left;
+}
+.coinage span {
+	font-size: 100%;
+}
+.coinage p {
+	height: 1rem;
+	font-size: 30px;
+}
+.equips textarea {
+	width: 100%;
+	border: none;
+}
+.equips button {
+	width: 100%;	
+	background: white;
+}
+@media (max-width: 767px ) {
+	body {
+		background-color: white;
+	}
+	.navbar {
+		padding-bottom: 20px;
+	}
+	.profile {
+		top: -60px;
+		margin-bottom: -30px;
+	}
+	.abil {
+		padding-left: 0;
+		padding-right: 7.5px;
+	}
+	.skill, .languages {
+		padding-left: 7.5px;
+		padding-right: 0;
+	}
+	.col-xs-12 {
+		padding: 0 0;
+	}
+	.coinage {
+		width: 50%;
+	}
+	.coinage:last-child {
+		width: 100%;
+	}
+}
+@media (min-width: 768px) and (max-width:1024px) {
+	.coinage {
+		width: 33.3%;
+	}
+	.coinage:nth-child(4) {
+		width: 50%;
+	}
+	.coinage:nth-child(5) {
+		width: 50%;
+	}
+}
+@media (min-width: 768px) {
+	body {
+		background-color: #f2ede8;
+	}
+}
+
+.writingCharacter label {
+	margin-right: 1.2rem;
+}
+.writingCharacter .form-control {
+	height: auto;
+}
